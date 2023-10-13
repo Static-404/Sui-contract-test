@@ -20,7 +20,7 @@ module quest_3::my_module {
 
     let book = Book {
       id: object::new(&mut ctx),
-      owner_name: string::utf8(b"insert-stackup-username"),
+      owner_name: string::utf8(b"Static404"),
       num_pages: 150
     };
 
